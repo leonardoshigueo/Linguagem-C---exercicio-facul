@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define LINHAS 3
+#define COLUNAS 10
+
+int main(void){
+  
+  int a=10, k, l;
+  for ( k=0 ; k<LINHAS ; k++ ){
+    
+    for ( l=0 ; l<COLUNAS ; l++ ){
+      printf("%d\t", a);
+      a++;
+    }
+    printf("\n");
+  }  
+}
